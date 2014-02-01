@@ -74,16 +74,17 @@ embed,object,iframe{display:block;margin:4px auto;}
   -webkit-box-shadow: 1px 1px 2px #ccc;
 /*  
   color: #888; 
-*/
   color: #333333
+*/
+
   padding: 2px 8px 2px 8px;
   text-decoration: none; }
 
 .tag:visited {
 /*  
   color: #888; 
-*/
-  color: #333333}
+  color: #333333
+*/}
 
 .tag:hover {
   background: #ccc;
