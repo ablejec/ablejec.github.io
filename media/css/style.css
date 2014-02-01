@@ -80,7 +80,10 @@ embed,object,iframe{display:block;margin:4px auto;}
   text-decoration: none; }
 
 .tag:visited {
-  color: #888; }
+/*  
+  color: #888; 
+*/
+  color: #333333}
 
 .tag:hover {
   background: #ccc;
