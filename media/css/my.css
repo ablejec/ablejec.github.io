@@ -19,7 +19,6 @@
     }
     aside {
       position: fixed;
-      float: right;
       top: 80px;
       margin-left:16em;
       width:12em;
