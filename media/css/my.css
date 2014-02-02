@@ -15,14 +15,12 @@
     */
     #sidebar {
     float: right;
-      border: 1px solid red;
       width: 200px;
     }
     aside {
       position: fixed;
       float: right;
-      top: 100px;
-      border: 1px solid red;
+      top: 80px;
       font-family:"Electrolize",sans-serif;
       font-size:1.1em;text-transform:uppercase;
       margin-left:16em;
