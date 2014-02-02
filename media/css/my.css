@@ -22,8 +22,10 @@
       top: 80px;
       margin-left:16em;
       width:10em;
-      text-align:left;}
-    }
+      text-align:left;
+      }
+      aside header{font-family:"Electrolize",sans-serif;font-size:1.1em;text-transform:uppercase;
+      display:block;padding:.7em 1em .7em;color:#000000;}
 /**
  * TAGS
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
