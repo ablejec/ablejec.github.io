@@ -10,7 +10,7 @@ tags:
 - R code
 ---
 
-I am organizing my BibTeX files with Jabref. For Jabref the proper syntax for the author field for multiple authors is `Last1, First1 and Last2, First2` - ('and delimited). Often list of authors is composed as `First1 Last1, First2 Last2` (comma delimited).
+I am organizing my BibTeX files with Jabref. For Jabref the proper syntax for the author field for multiple authors is `Last1, First1 and Last2, First2` (and delimited). Often the list of authors is composed as `First1 Last1, First2 Last2` (comma delimited).
 
 The code below helps to change 'comma' delimted list of authors into 'and' delimited list of authors:
 
@@ -27,6 +27,7 @@ fl2lf <- function(x){
 {% highlight r %}
 x <- "Tim Horton, Tom Orton , Tam   Hortan,Tem Horten"
 fl2lf(x)
+# [1] "Horton, Tim and Orton, Tom and Hortan, Tam   and Horten, Tem"
 {% endhighlight %}
 
 The function is quite forgiving to the number of spaces around commas.
