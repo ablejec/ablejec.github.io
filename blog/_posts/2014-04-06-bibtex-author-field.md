@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BibTeX author filed converter
+title: BibTeX author field converter
 categories:
 - R language
 - LaTeX
